@@ -16,10 +16,10 @@
     <div class="container header-inner">
       <a class="logo" href="#">Земля и торги</a>
       <nav class="nav" aria-label="Основная навигация">
-        <a href="#services">Услуги</a>
-        <a href="#about">О специалисте</a>
-        <a href="#process">Формат работы</a>
-        <a href="#faq">Вопросы</a>
+        <a class="nav__link" href="#services" data-nav-section="services">Услуги</a>
+        <a class="nav__link" href="#about" data-nav-section="about">О специалисте</a>
+        <a class="nav__link" href="#process" data-nav-section="process">Формат работы</a>
+        <a class="nav__link" href="#faq" data-nav-section="faq">Вопросы</a>
       </nav>
       <a class="btn btn--small btn--header" href="#contact">Консультация</a>
     </div>
@@ -39,7 +39,7 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="requests">
+    <section class="section section--alt reveal" id="requests">
       <div class="container">
         <p class="section__label"><span class="section__label-num">01</span> Запросы</p>
         <h2 class="section__title">С какими задачами ко мне приходят</h2>
@@ -56,7 +56,7 @@
       </div>
     </section>
 
-    <section class="section" id="services">
+    <section class="section reveal" id="services">
       <div class="container">
         <p class="section__label"><span class="section__label-num">02</span> Услуги</p>
         <h2 class="section__title">Чем могу помочь</h2>
@@ -84,7 +84,7 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="results">
+    <section class="section section--alt reveal" id="results">
       <div class="container">
         <p class="section__label"><span class="section__label-num">03</span> Результат</p>
         <h2 class="section__title">Что вы получаете</h2>
@@ -99,7 +99,7 @@
       </div>
     </section>
 
-    <section class="section" id="about">
+    <section class="section reveal" id="about">
       <div class="container container--narrow">
         <p class="section__label"><span class="section__label-num">04</span> О человеке</p>
         <h2 class="section__title">О специалисте</h2>
@@ -113,7 +113,7 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="fears">
+    <section class="section section--alt reveal" id="fears">
       <div class="container">
         <p class="section__label"><span class="section__label-num">05</span> Сомнения</p>
         <h2 class="section__title">Если есть сомнения — это нормально</h2>
@@ -134,7 +134,7 @@
       </div>
     </section>
 
-    <section class="section" id="process">
+    <section class="section reveal" id="process">
       <div class="container">
         <p class="section__label"><span class="section__label-num">06</span> Процесс</p>
         <h2 class="section__title">Как проходит работа</h2>
@@ -154,7 +154,7 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="reviews">
+    <section class="section section--alt reveal" id="reviews">
       <div class="container">
         <p class="section__label"><span class="section__label-num">07</span> Отзывы</p>
         <h2 class="section__title">Отзывы клиентов</h2>
@@ -166,11 +166,10 @@
             <p>«С торгами было много сомнений, но с сопровождением стало понятно и безопасно»</p>
           </blockquote>
         </div>
-        <p class="reviews-hint">Здесь лучше добавить реальные отзывы</p>
       </div>
     </section>
 
-    <section class="section" id="faq">
+    <section class="section reveal" id="faq">
       <div class="container container--narrow">
         <p class="section__label"><span class="section__label-num">08</span> FAQ</p>
         <h2 class="section__title">Частые вопросы</h2>
@@ -195,7 +194,7 @@
       </div>
     </section>
 
-    <section class="final-cta" id="contact">
+    <section class="final-cta reveal" id="contact">
       <div class="container final-cta__inner">
         <h2 class="final-cta__title">Если есть вопрос — лучше спокойно разобраться сейчас</h2>
         <p class="final-cta__text">Понимание ситуации помогает избежать лишних затрат, ошибок и потери времени</p>
@@ -211,5 +210,6 @@
       <a class="footer__up" href="#top">Наверх</a>
     </div>
   </footer>
+  <script src="site.js" defer></script>
 </body>
 </html>
